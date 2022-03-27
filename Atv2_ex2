@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <div style="display: flex; background-color: #e7bff1; height: 400px; width: 200%; justify-content: center;">
+
+        <div style="background-color: #88ff00; height: 100%; width: 160px; border: rgb(89, 0, 255); border-width: 30px; border-style: groove;"></div>
+        <div style="background-color: rgb(0, 231, 247); height: 90%; width: 40%;"></div>
+    </div>
+</body>
+</html>
