@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+.header{
+    border-bottom: 2px solid #32b9cd;}
+
+.container{
+    color: #32b9cd;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.container ul{
+    color: #e3b062;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.header .container{
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul a{
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.agora{
+    font-weight: 700;
+}
+
+.banner{
+    height: 600px;
+    background-image: url(https://raw.githubusercontent.com/WilliamMN/aquatec-1adsb/faf75cc2b91ff17d9d2a2ae4bd5a058ce2f68238/bg-jelly-fish-para-home.png);
+    background-size: cover;
+    color: #fff;
+}
+
+.banner .container{
+height: 500px;
+align-items: center;
+}
+
+.banner p{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    width: 280px;
+    margin-left: 350px;
+}
+.banner span{
+    font-weight: 800;
+}
+
+/* login */
+.banner .card{
+    background-color: beige;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card{
+    margin: 20px;
+}
+
+.btn{
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 18px;
+    color: azure;
+    padding: 10px 15px;
+    background-color: #e75459;
+    cursor: pointer;
+}
+
+input{
+    height: 30px;
+    border: 1px solid #e75459;
+    border-radius: 4px;
+}
